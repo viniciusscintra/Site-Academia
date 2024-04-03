@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap ');
+
+body{
+font-family: "LATO";
+
+background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(img/img5.jpg);
+background-position: center center;
+background-size: cover;
+background-position-y: 0px;
+background-repeat: no-repeat;
+
+}
+svg{
+width: 25px;
+}
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box ;
+text-decoration: none;
+}
+html{
+width: 100vw;
+height: 100vh;
+font-size: 62.5%;
+color: rgb(255, 255, 255);
+}
+.menu{
+text-transform: uppercase;
+height: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: 18px;
+
+}
+.logo{
+letter-spacing: 0.4rem;
+font-size: 1.8rem;
+cursor: pointer;
+}
+ul, li{
+display: flex;
+list-style: none;
+gap: 10px;
+
+}
+a{
+color: white;
+padding: 1.5rem;
+transform:  2ms ease-in;
+position: relative;
+}
+nav a::before{
+content: '';
+position: absolute;
+bottom: 0px;
+left: 0px;
+width: 0px;
+height: 0.5px;
+background-color: rgb(144, 144, 144);
+transition: all 1.5s ease;
+}
+nav a:hover::before{
+  width: 100%;
+
+    }
+    main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+    .corpo{
+        display: flex
+    ;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+    }
+    
+.text-principal{
+width: 850px;
+font-size: 5rem;
+margin-bottom: 2rem;
+text-align: center;
+
+}
+h2{
+margin-bottom: 7rem;
+font-size: 2rem;
+color: rgba(128, 128, 128, 0.758);
+text-transform: uppercase;
+}
+button{
+  
+font-size: 2rem;
+padding: 20px 40px;
+gap: 50px;
+justify-content: center;
+border: 1px solid rgb(185, 179, 179);
+border-radius: 20px;
+background-color: transparent;
+color: white;
+margin-left: 20px;
+}
